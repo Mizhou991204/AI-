@@ -69,54 +69,109 @@ platforms:
 # === 财经投资类 ===
   - id: "wallstreetcn-hot"
     name: "华尔街见闻 最热"
+    url: "https://wallstreetcn.com/"
+    expected_domain: "wallstreetcn.com"
+
   - id: "wallstreetcn-quick"
     name: "华尔街见闻 快讯"
+    url: "https://wallstreetcn.com/live/global"
+    expected_domain: "wallstreetcn.com"
+
   - id: "wallstreetcn-news"
     name: "华尔街见闻 最新"
+    url: "https://wallstreetcn.com/news/global"
+    expected_domain: "wallstreetcn.com"
+
   - id: "cls-hot"
     name: "财联社热门"
+    url: "https://www.cls.cn/"
+    expected_domain: "cls.cn"
+
   - id: "gelonghui"
     name: "格隆汇"
+    url: "https://www.gelonghui.com/"
+    expected_domain: "gelonghui.com"
+
   - id: "xueqiu"
     name: "雪球"
+    url: "https://xueqiu.com/"
+    expected_domain: "xueqiu.com"
+
   - id: "jin10"
     name: "金十数据"
+    url: "https://www.jin10.com/"
+    expected_domain: "jin10.com"
+
   - id: "fastbull"
-    name: "快讯通"
-    
-    - id: "cls-hot"
-      name: "财联社热门"
-      expected_domain: "cls.cn"
+    name: "快讯通 / FastBull"
+    url: "https://www.fastbull.com/"
+    expected_domain: "fastbull.com"
+
+
 # === 全球核心新闻源 ===
   - id: "reuters"
     name: "路透社 Reuters"
+    url: "https://www.reuters.com/"
+    expected_domain: "reuters.com"
+
   - id: "ap"
     name: "美联社 AP"
+    url: "https://www.ap.org/"
+    expected_domain: "ap.org"
+
   - id: "bbc"
     name: "BBC"
+    url: "https://www.bbc.com/news"
+    expected_domain: "bbc.com"
+
   - id: "guardian"
     name: "卫报 The Guardian"
+    url: "https://www.theguardian.com/international"
+    expected_domain: "theguardian.com"
+
 
 # === 财经核心新闻源 ===
   - id: "bloomberg"
     name: "彭博 Bloomberg"
+    url: "https://www.bloomberg.com/"
+    expected_domain: "bloomberg.com"
+
   - id: "ft"
     name: "金融时报 Financial Times"
+    url: "https://www.ft.com/"
+    expected_domain: "ft.com"
+
   - id: "wsj"
     name: "华尔街日报 The Wall Street Journal"
+    url: "https://www.wsj.com/"
+    expected_domain: "wsj.com"
+
 
 # === 中东冲突重点源 ===
   - id: "aljazeera"
     name: "半岛电视台 Al Jazeera"
+    url: "https://www.aljazeera.com/"
+    expected_domain: "aljazeera.com"
+
   - id: "alarabiya"
     name: "阿拉比亚电视台 Al Arabiya"
+    url: "https://english.alarabiya.net/"
+    expected_domain: "alarabiya.net"
+
   - id: "irna-en"
     name: "伊朗伊斯兰共和国通讯社 IRNA English"
+    url: "https://en.irna.ir/"
+    expected_domain: "irna.ir"
+
   - id: "times-of-israel"
     name: "以色列时报 The Times of Israel"
+    url: "https://www.timesofisrael.com/"
+    expected_domain: "timesofisrael.com"
+
   - id: "haaretz"
     name: "国土报 Haaretz"
-
+    url: "https://www.haaretz.com/"
+    expected_domain: "haaretz.com"
 # ===============================================================
 # 3. 数据源 - RSS 订阅
 #
